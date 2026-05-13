@@ -664,6 +664,10 @@ html[data-theme="dark"] .minimal-publications__filter:hover {
     border-bottom: 1px solid var(--global-border-color);
 }
 
+.minimal-publication[hidden] {
+    display: none !important;
+}
+
 .minimal-publication__image {
     position: relative;
     flex: 0 0 270px;
