@@ -1,6 +1,6 @@
 {% include base_path %}
 
-<div class="minimal-publications">
+<div class="minimal-publications is-selected-view">
   <div class="minimal-publications__filters" aria-label="Publication filters">
     <button class="minimal-publications__filter is-active" type="button" data-filter="selected">Selected Papers</button>
     <button class="minimal-publications__filter" type="button" data-filter="all">All Papers</button>
@@ -118,14 +118,21 @@
     document.querySelectorAll(".minimal-publications").forEach(function (section) {
       var buttons = section.querySelectorAll(".minimal-publications__filter");
       var papers = section.querySelectorAll(".minimal-publication");
+      var setFilter = function (filter) {
+        section.classList.toggle("is-selected-view", filter === "selected");
+        section.classList.toggle("is-all-view", filter === "all");
+        papers.forEach(function (paper) {
+          paper.hidden = filter === "selected" && !paper.classList.contains("selected-pub");
+        });
+      };
+      var activeButton = section.querySelector(".minimal-publications__filter.is-active");
+      setFilter(activeButton ? activeButton.getAttribute("data-filter") : "selected");
       buttons.forEach(function (button) {
         button.addEventListener("click", function () {
           buttons.forEach(function (item) { item.classList.remove("is-active"); });
           button.classList.add("is-active");
           var filter = button.getAttribute("data-filter");
-          papers.forEach(function (paper) {
-            paper.hidden = filter === "selected" && !paper.classList.contains("selected-pub");
-          });
+          setFilter(filter);
         });
       });
     });

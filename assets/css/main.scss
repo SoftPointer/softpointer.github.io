@@ -668,6 +668,10 @@ html[data-theme="dark"] .minimal-publications__filter:hover {
     display: none !important;
 }
 
+.minimal-publications.is-selected-view .minimal-publication:not(.selected-pub) {
+    display: none !important;
+}
+
 .minimal-publication__image {
     position: relative;
     flex: 0 0 270px;
