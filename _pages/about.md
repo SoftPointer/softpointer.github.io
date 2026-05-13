@@ -1,9 +1,9 @@
 ---
 permalink: /
-layout: homepage
+layout: single
 title: ""
 excerpt: ""
-author_profile: false
+author_profile: true
 redirect_from: 
   - /about/
   - /about.html
