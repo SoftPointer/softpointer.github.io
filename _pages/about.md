@@ -20,7 +20,7 @@ redirect_from:
 
 # Welcome to Peiyuan's Homepage!
 
-Hi 👋, I'm Peiyuan Zhu (/ˈpeɪ.jwæn zuː/), a first-year PhD student in Machine Learning Department at <a href="https://mbzuai.ac.ae">MBZUAI</a>, fortunately supervised by <a href="https://scholar.google.com/citations?user=RGoypN4AAAAJ&hl=en">Prof. Kun Zhang</a>. My email address is peiyuan [dot] zhu [at] mbzuai [dot] ac [dot] ae.
+Hi 👋, I'm Peiyuan Zhu (/ˈpeɪ.jwæn zuː/), a second-year PhD student in Machine Learning Department at <a href="https://mbzuai.ac.ae">MBZUAI</a>, fortunately supervised by <a href="https://scholar.google.com/citations?user=RGoypN4AAAAJ&hl=en">Prof. Kun Zhang</a>. My email address is peiyuan [dot] zhu [at] mbzuai [dot] ac [dot] ae.
 
 ## Research
 
