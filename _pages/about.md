@@ -40,4 +40,10 @@ Prior to joining <a href="https://mbzuai.ac.ae">MBZUAI</a>, I obtained my B.Eng.
 
 ## Services
 
-Served as a reviewer for ICML, NeurIPS, ICLR, CVPR, ECCV, IEEE Transactions on Intelligent Transportation Systems (TITS), and IEEE Transactions on Geoscience and Remote Sensing (TGRS).
+#### Conference Reviewer
+
+ICML, NeurIPS, ICLR, CVPR, ECCV
+
+#### Journal Reviewer
+
+TITS, TGRS
