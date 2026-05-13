@@ -42,8 +42,8 @@ Prior to joining <a href="https://mbzuai.ac.ae">MBZUAI</a>, I obtained my B.Eng.
 
 #### Conference Reviewer
 
-ICML, NeurIPS, ICLR, CVPR, ECCV
+ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, ACL, EMNLP
 
 #### Journal Reviewer
 
-TITS, TGRS
+TPAMI, ACM Computing Surveys (CSUR), TITS, TGRS
