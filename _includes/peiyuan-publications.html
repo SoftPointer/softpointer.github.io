@@ -1,0 +1,94 @@
+{% include base_path %}
+
+<div class="minimal-publications">
+  <div class="minimal-publications__filters" aria-label="Publication filters">
+    <button class="minimal-publications__filter is-active" type="button" data-filter="selected">Selected Papers</button>
+    <button class="minimal-publications__filter" type="button" data-filter="all">All Papers</button>
+  </div>
+
+  <ol class="minimal-publications__list">
+    <li class="minimal-publication selected-pub" data-paper-kind="selected">
+      <div class="minimal-publication__image">
+        <img src="{{ base_path }}/images/causalverse.png" alt="CausalVerse thumbnail">
+        <span class="minimal-publication__badge">NeurIPS</span>
+      </div>
+      <div class="minimal-publication__content">
+        <h3><a href="https://arxiv.org/abs/2502.13759">CausalVerse: Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations</a></h3>
+        <p class="minimal-publication__authors">Guangyi Chen, Yunlong Deng, <strong>Peiyuan Zhu</strong>, Yan Li, Yifan Shen, Zijian Li, Kun Zhang</p>
+        <p class="minimal-publication__venue"><em><strong>NeurIPS submission</strong>, 2025.</em></p>
+        <p class="minimal-publication__summary"><em>"CausalVerse is a high-fidelity visual benchmark for Causal Representation Learning, offering ground-truth causal structures across diverse static and dynamic scenarios to enable rigorous and realistic evaluation of CRL methods."</em></p>
+      </div>
+    </li>
+
+    <li class="minimal-publication selected-pub" data-paper-kind="selected">
+      <div class="minimal-publication__image">
+        <img src="{{ base_path }}/images/covogan.png" alt="CoVoGAN thumbnail">
+        <span class="minimal-publication__badge">NeurIPS</span>
+      </div>
+      <div class="minimal-publication__content">
+        <h3><a href="https://arxiv.org/abs/2502.13759">Controllable Video Generation with Provable Disentanglement</a></h3>
+        <p class="minimal-publication__authors">Yifan Shen*, <strong>Peiyuan Zhu*</strong>, Zijian Li, Shaoan Xie, Zeyu Tang, Namrata Deka, Zongfang Liu, Guangyi Chen, Kun Zhang</p>
+        <p class="minimal-publication__venue"><em><strong>NeurIPS submission</strong>, 2025.</em></p>
+        <p class="minimal-publication__summary"><em>"CoVoGAN is a controllable video generation framework that disentangles static and dynamic concepts for independent control, achieving superior quality and controllability through theoretically grounded latent dynamics modeling."</em></p>
+      </div>
+    </li>
+
+    <li class="minimal-publication selected-pub" data-paper-kind="selected">
+      <div class="minimal-publication__image">
+        <img src="{{ base_path }}/images/dmpred.png" alt="Attentive Radiate Graph thumbnail">
+        <span class="minimal-publication__badge">TITS</span>
+      </div>
+      <div class="minimal-publication__content">
+        <h3><a href="https://ieeexplore.ieee.org/abstract/document/10962257">Attentive Radiate Graph for Pedestrian Trajectory Prediction in Disconnected Manifolds</a></h3>
+        <p class="minimal-publication__authors"><strong>Peiyuan Zhu</strong>, Shengjie Zhao, Hao Deng, Fengxia Han</p>
+        <p class="minimal-publication__venue"><em><strong>IEEE Transactions on Intelligent Transportation Systems</strong>, 2025.</em></p>
+        <p class="minimal-publication__summary"><em>"The problem of multimodal pedestrian prediction in disconnected manifolds is considered. A graph-based generative method that incorporates the localized influence radiating from pedestrian movements is proposed and implemented on GPU."</em></p>
+      </div>
+    </li>
+
+    <li class="minimal-publication selected-pub" data-paper-kind="selected">
+      <div class="minimal-publication__image">
+        <img src="{{ base_path }}/images/beavp.png" alt="BEAVP thumbnail">
+        <span class="minimal-publication__badge">FG</span>
+      </div>
+      <div class="minimal-publication__content">
+        <h3><a href="https://ieeexplore.ieee.org/abstract/document/10581919">BEAVP: A Bidirectional Enhanced Adversarial Model for Video Prediction</a></h3>
+        <p class="minimal-publication__authors"><strong>Peiyuan Zhu</strong>, Shengjie Zhao, Fengxia Han, Hao Deng</p>
+        <p class="minimal-publication__venue"><em><strong>IEEE FG</strong>, 2024.</em></p>
+        <p class="minimal-publication__summary"><em>"BEAVP, a stochastic video prediction model based on coupled GANs, leverages cycle-consistency and shared latent space to capture spacetime-varying motion patterns."</em></p>
+      </div>
+    </li>
+
+    <li class="minimal-publication selected-pub" data-paper-kind="selected">
+      <div class="minimal-publication__image">
+        <img src="{{ base_path }}/images/multi.png" alt="Flexible Multi-generator Model thumbnail">
+        <span class="minimal-publication__badge">Radar</span>
+      </div>
+      <div class="minimal-publication__content">
+        <h3><a href="https://ieeexplore.ieee.org/abstract/document/10562932">Flexible Multi-generator Model with Fused Spatiotemporal Graph for Trajectory Prediction</a></h3>
+        <p class="minimal-publication__authors"><strong>Peiyuan Zhu</strong>, Fengxia Han, Hao Deng</p>
+        <p class="minimal-publication__venue"><em><strong>IET International Radar Conference</strong>, 2023.</em></p>
+        <p class="minimal-publication__summary"><em>"A multi-generator trajectory prediction framework using a fused spatiotemporal graph to model complex pedestrian interactions."</em></p>
+      </div>
+    </li>
+  </ol>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".minimal-publications").forEach(function (section) {
+      var buttons = section.querySelectorAll(".minimal-publications__filter");
+      var papers = section.querySelectorAll(".minimal-publication");
+      buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          buttons.forEach(function (item) { item.classList.remove("is-active"); });
+          button.classList.add("is-active");
+          var filter = button.getAttribute("data-filter");
+          papers.forEach(function (paper) {
+            paper.hidden = filter === "selected" && !paper.classList.contains("selected-pub");
+          });
+        });
+      });
+    });
+  });
+</script>
