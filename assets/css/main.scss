@@ -748,6 +748,11 @@ html[data-theme="dark"] .minimal-publications__filter:hover {
     color: var(--homepage-muted-color) !important;
 }
 
+.minimal-publication__highlight {
+    color: #e84b42;
+    font-weight: 800;
+}
+
 .minimal-publication__summary {
     color: var(--homepage-muted-color) !important;
     font-size: 18px !important;
