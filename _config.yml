@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Peiyuan Zhu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student in Mohamed bin Zayed University of Artificial Intelligence"
+  bio              : "PhD Student"
   location         : "Abu Dhabi, UAE"
   employer         : "MBZUAI"
   uri              : # URL
@@ -52,7 +52,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username

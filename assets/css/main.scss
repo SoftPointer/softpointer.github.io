@@ -1412,3 +1412,131 @@ body {
         max-height: 220px !important;
     }
 }
+
+/* Compact profile and homepage proportions after content updates. */
+.homepage-body #main {
+    grid-template-columns: 216px minmax(0, 960px) !important;
+    gap: 32px !important;
+    max-width: 1208px !important;
+    padding-top: 2.3rem !important;
+}
+
+.homepage-body .sidebar {
+    max-width: 216px !important;
+}
+
+.homepage-body .author__avatar img {
+    width: 116px !important;
+    height: 116px !important;
+    max-width: 116px !important;
+    padding: 6px !important;
+}
+
+.homepage-body .author__name {
+    margin: 0.45rem 0 0.35rem !important;
+    font-size: 1.55rem !important;
+    font-weight: 650 !important;
+}
+
+.homepage-body .author__bio {
+    margin: 0.18rem 0 0.28rem !important;
+    font-size: 0.92rem !important;
+    line-height: 1.35 !important;
+}
+
+.homepage-body .author__desktop {
+    margin: 0.1rem 0 !important;
+    font-size: 0.82rem !important;
+}
+
+.homepage-body .author__urls {
+    gap: 0.25rem !important;
+    margin-top: 0.7rem !important;
+}
+
+.homepage-body .author__urls li:not(.author__desktop) a {
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+.homepage-body .author__urls li:not(.author__desktop) a i {
+    font-size: 1.05rem !important;
+}
+
+.homepage-body .minimal-publications__filters {
+    margin-bottom: 28px !important;
+    padding: 18px !important;
+}
+
+.homepage-body .minimal-publication {
+    gap: 18px !important;
+}
+
+.homepage-body .minimal-publication__image {
+    flex-basis: 230px !important;
+    width: 230px !important;
+    height: 154px !important;
+}
+
+.homepage-body .minimal-publication__image img {
+    width: 230px !important;
+    height: 154px !important;
+    min-width: 230px !important;
+    min-height: 154px !important;
+    max-width: 230px !important;
+    max-height: 154px !important;
+}
+
+.homepage-body .minimal-publication__badge {
+    top: 10px !important;
+    left: 10px !important;
+    padding: 5px 12px !important;
+    font-size: 12px !important;
+}
+
+.homepage-body .minimal-publication__content h3 {
+    font-size: 16px !important;
+}
+
+.homepage-body .minimal-publication__authors,
+.homepage-body .minimal-publication__venue {
+    font-size: 14px !important;
+}
+
+.homepage-body .minimal-publication__summary {
+    font-size: 13px !important;
+}
+
+@media screen and (max-width: 900px) {
+    .homepage-body #main {
+        grid-template-columns: 1fr !important;
+        gap: 1.45rem !important;
+        padding-top: 1.6rem !important;
+    }
+
+    .homepage-body .sidebar {
+        max-width: 240px !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .homepage-body .author__avatar img {
+        width: 104px !important;
+        height: 104px !important;
+        max-width: 104px !important;
+    }
+
+    .homepage-body .author__name {
+        font-size: 1.45rem !important;
+    }
+
+    .homepage-body .minimal-publication__image,
+    .homepage-body .minimal-publication__image img {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        height: auto !important;
+        min-height: 0 !important;
+    }
+}
