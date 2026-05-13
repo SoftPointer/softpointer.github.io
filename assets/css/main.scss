@@ -904,3 +904,237 @@ h6 {
         max-height: 210px;
     }
 }
+
+/* Final minimal-light alignment overrides. Keep the Academic Pages plumbing, hide its visual fingerprints. */
+body {
+    padding-bottom: 0 !important;
+}
+
+.page__footer {
+    display: none !important;
+}
+
+.masthead {
+    background: var(--homepage-nav-bg) !important;
+    min-height: 0 !important;
+}
+
+.masthead__inner-wrap {
+    max-width: 1200px !important;
+    padding: 6px 18px !important;
+}
+
+.masthead__menu-item--lg {
+    display: none !important;
+}
+
+.greedy-nav {
+    display: flex !important;
+    justify-content: flex-end !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    background: transparent !important;
+}
+
+.greedy-nav .visible-links {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    width: 100% !important;
+}
+
+.greedy-nav .visible-links li,
+.masthead__menu-item {
+    display: inline-flex !important;
+    align-items: center !important;
+    background: transparent !important;
+}
+
+.greedy-nav a {
+    margin: 0 0 0 24px !important;
+    padding: 6px 0 !important;
+    color: var(--global-text-color-light) !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+}
+
+.greedy-nav a:hover,
+.masthead__menu-item--active a {
+    color: var(--global-text-color) !important;
+}
+
+.greedy-nav .visible-links a::before {
+    bottom: 0 !important;
+    height: 1px !important;
+    background: var(--homepage-accent-color) !important;
+    opacity: 0.65 !important;
+}
+
+.greedy-nav .visible-links #theme-toggle a {
+    width: 28px !important;
+    height: 28px !important;
+    margin-left: 22px !important;
+    padding: 0 !important;
+    border: 1px solid var(--global-border-color) !important;
+    border-radius: 50% !important;
+    color: var(--global-text-color-light) !important;
+    font-size: 13px !important;
+}
+
+.greedy-nav .visible-links #theme-toggle a::before {
+    display: none !important;
+}
+
+.greedy-nav button {
+    height: 28px !important;
+    background: transparent !important;
+    color: var(--global-text-color) !important;
+}
+
+.homepage-body #main {
+    grid-template-columns: 232px minmax(0, 950px) !important;
+    gap: 36px !important;
+    max-width: 1200px !important;
+    margin-top: 0 !important;
+}
+
+.homepage-body .page__content .paper-box {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    flex-wrap: nowrap !important;
+    gap: 20px !important;
+    padding: 18px 0 22px !important;
+    border-bottom: 1px solid var(--global-border-color) !important;
+}
+
+.homepage-body .page__content .paper-box-image {
+    display: block !important;
+    flex: 0 0 270px !important;
+    order: initial !important;
+    width: 270px !important;
+    min-width: 270px !important;
+    max-width: 270px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.homepage-body .page__content .paper-box-image > div {
+    width: 270px !important;
+    height: 180px !important;
+    overflow: hidden !important;
+    border-radius: 4px !important;
+    background: var(--homepage-panel-color) !important;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.28) !important;
+}
+
+.homepage-body .page__content .paper-box-image img {
+    display: block !important;
+    width: 270px !important;
+    height: 180px !important;
+    min-width: 270px !important;
+    min-height: 180px !important;
+    max-width: 270px !important;
+    max-height: 180px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 4px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    box-shadow: none !important;
+}
+
+.homepage-body .page__content .paper-box-text {
+    flex: 1 1 auto !important;
+    order: initial !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    padding-left: 0 !important;
+    color: var(--global-text-color) !important;
+    font-size: 16px !important;
+    line-height: 1.45 !important;
+}
+
+.homepage-body .page__content .paper-box-text p {
+    margin: 0 0 8px !important;
+    color: var(--global-text-color) !important;
+    font-size: 16px !important;
+    line-height: 1.45 !important;
+}
+
+.homepage-body .page__content .paper-box-text p:first-child {
+    margin-bottom: 9px !important;
+    font-size: 16px !important;
+}
+
+.homepage-body .page__content .paper-box-text p:first-child a {
+    color: var(--global-link-color) !important;
+    font-weight: 650 !important;
+    text-decoration: none !important;
+}
+
+.homepage-body .page__content .paper-box-text p:first-child a:hover {
+    text-decoration: underline !important;
+}
+
+.homepage-body .page__content .paper-box-text em {
+    color: var(--homepage-muted-color) !important;
+    font-size: 14px !important;
+    line-height: 1.45 !important;
+}
+
+.homepage-body .page__content .paper-box-text img {
+    width: auto !important;
+    height: 20px !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    margin: 0 0 0 4px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    vertical-align: -4px !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 900px) {
+    .greedy-nav a {
+        margin-left: 18px !important;
+        font-size: 14px !important;
+    }
+
+    .homepage-body #main {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .masthead__inner-wrap {
+        padding: 6px 12px !important;
+    }
+
+    .greedy-nav a {
+        margin-left: 14px !important;
+        font-size: 13px !important;
+    }
+
+    .homepage-body .page__content .paper-box {
+        flex-direction: column !important;
+    }
+
+    .homepage-body .page__content .paper-box-image,
+    .homepage-body .page__content .paper-box-image > div,
+    .homepage-body .page__content .paper-box-image img {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .homepage-body .page__content .paper-box-image > div,
+    .homepage-body .page__content .paper-box-image img {
+        height: auto !important;
+        max-height: 220px !important;
+    }
+}
