@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Peiyuan Zhu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student"
-  location         : "Abu Dhabi, UAE"
-  employer         : "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)"
+  bio              :
+  location         :
+  employer         : "MBZUAI"
   uri              : # URL
   # email            : "none@example.org" 
 
