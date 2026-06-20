@@ -28,7 +28,7 @@ My research interests lie at the intersection of Computer Vision, Machine Learni
 
 I am currently interested in **any-time controllable video generation/editing**, with the goal of understanding and controlling the latent cognitive processes in a principled way.
 
-If you share similar interests or want to discuss cool ideas, feel free to connect.
+If you share similar interests or want to discuss ideas, feel free to connect.
 
 ## Publications 
 
