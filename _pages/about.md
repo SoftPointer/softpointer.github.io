@@ -38,7 +38,7 @@ If you share similar interests or want to discuss ideas, feel free to connect.
 
 ## Experiences
 
-Prior to joining <a href="https://mbzuai.ac.ae">MBZUAI</a>, I obtained my B.Eng. and M.Eng. degrees in Computer Science and Technology from <a href="https://www.tongji.edu.cn">Tongji</a>, supervised by <a href="https://scholar.google.com/citations?user=N2xsxV8AAAAJ&hl=en">Prof. Jihong Guan</a> (2017–2021), <a href="https://ieeexplore.ieee.org/author/37085508115">Prof. Shengjie Zhao</a>, and <a href="https://ieeexplore.ieee.org/author/37086691124">Prof. Hao Deng</a> (2021–2024). I also conducted research as a visiting student at <a href="https://en.sjtu.edu.cn">SJTU</a> and completed an industry internship at Huawei's Kunpeng Cloud Division.
+Prior to starting my PhD at <a href="https://mbzuai.ac.ae">MBZUAI</a> and working with the <a href="https://www.cmu.edu/dietrich/causality/">CMU CLeaR Group</a>, I obtained my B.Eng. and M.Eng. degrees in Computer Science and Technology from <a href="https://www.tongji.edu.cn">Tongji</a>, supervised by <a href="https://scholar.google.com/citations?user=N2xsxV8AAAAJ&hl=en">Prof. Jihong Guan</a> (2017–2021), <a href="https://ieeexplore.ieee.org/author/37085508115">Prof. Shengjie Zhao</a>, and <a href="https://ieeexplore.ieee.org/author/37086691124">Prof. Hao Deng</a> (2021–2024). I also conducted research as a visiting student at <a href="https://en.sjtu.edu.cn">SJTU</a> and completed an industry internship at Huawei's Kunpeng Cloud Division.
 
 ## Services
 
