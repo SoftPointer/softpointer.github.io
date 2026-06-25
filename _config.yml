@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Peiyuan Zhu"
 title_separator          : "-"
 name                     : &name "Peiyuan Zhu"
-description              : &description "personal description"
+description              : &description "Peiyuan Zhu is a Ph.D. student at MBZUAI working on machine learning, computer vision, controllable video generation, and causal representation learning."
 url                      : https://softpointer.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "softpointer/softpointer.github.io"
@@ -142,9 +142,12 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : "Peiyuan Zhu" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://scholar.google.com/citations?hl=en&user=OeNSZeoAAAAJ"
+    - "https://github.com/softpointer"
+    - "https://dblp.org/pid/258/9804.html"
 
 
 # Analytics

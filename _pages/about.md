@@ -1,8 +1,8 @@
 ---
 permalink: /
 layout: single
-title: ""
-excerpt: ""
+title: "Peiyuan Zhu"
+excerpt: "Peiyuan Zhu is a Ph.D. student at MBZUAI working on machine learning, computer vision, controllable video generation, and causal representation learning."
 author_profile: true
 redirect_from: 
   - /about/
